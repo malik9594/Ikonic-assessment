@@ -1,0 +1,128 @@
+ 
+    .logo-size {
+     width: 373px;
+     height: 82.38px;
+    }
+    .circle {
+      width: 300px;
+      height: 300px;
+      border: 4px solid #4ADE80;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      animation: spin 20s linear infinite;
+    }
+
+    .circle-text {
+      font-size: 0.8rem;
+      color: #4ADE80;
+      text-transform: uppercase;
+      transform: rotate(-30deg);
+      text-align: center;
+    }
+
+    .phone {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 160px;
+      height: 320px;
+      background-color: #fff;
+      border-radius: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      background-image: url('https://via.placeholder.com/160x320?text=Transforming+Healthcare');
+      background-size: cover;
+      background-position: center;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+       .right-body {
+      background: #41286C;
+      border-bottom-left-radius: 50%;
+    }
+
+    @keyframes spin-slow {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    .animate-spin-slow {
+      animation: spin-slow 20s linear infinite;
+    }
+
+    .circle-text {
+      transform: rotate(-30deg);
+    }
+
+    .phone {
+      background-image: url('https://via.placeholder.com/160x320?text=Transforming+Healthcare');
+      background-size: cover;
+      background-position: center;
+    }
+  
+    .hand-img{
+        width: 681.83px;
+        height: 772.88px;
+    }
+
+    .web-img{
+      width: 320px;
+      height: 330px
+    }
+
+   .three-img{
+    width: 650px;
+    height: 600px;
+   }
+    .get-website {
+      width: 600px;
+      height: 500px;
+      border-radius: 0px 50px 50px 0px; 
+
+    }
+
+     .get-website-left {
+      width: 600px;
+      height: 500px;
+      border-radius: 50px 0px 0px 50px; 
+
+    }
+
+    .arrow-img {
+      width: 40px;
+      height: 40px
+    }
+
+    .circle-image {
+      width: 250px;
+      height: 250px;
+    }
+
+    .card-shadow {
+      box-shadow: 5px 0px 0px 10px rgba(0, 0, 0, 0.095);
+    }
+
+    .mask-img {
+      width: 100%;
+      height: 100%;
+    }
+
+    .img-greenlight{
+      width: 400px;
+      height: 400px;
+    }
+
+     .img-greenlight1{
+      width: 850px;
+      height: 400px;
+    }
+
+    .client-img {
+      width: 280px;
+      height: 290px;
+    }
